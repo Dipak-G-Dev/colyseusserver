@@ -1,0 +1,7 @@
+{    "extends": "../../tsconfig/tsconfig.all.json",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "module": "CommonJS",
+        "target": "ES2020"
+    }
+}

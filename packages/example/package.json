@@ -1,0 +1,21 @@
+{
+  "name": "@colyseus/example",
+  "private": true,
+  "version": "0.14.21",
+  "author": "Endel Dreyer",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/Server.ts"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.14.36",
+    "@colyseus/uwebsockets-transport": "^0.14.29",
+    "colyseus": "^0.14.21",
+    "cors": "^2.8.5",
+    "koa": "^2.13.4",
+    "uwebsockets-express": "^1.2.2"
+  },
+  "devDependencies": {
+    "@colyseus/monitor": "^0.14.22"
+  }
+}
